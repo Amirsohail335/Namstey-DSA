@@ -58,4 +58,16 @@ function largestNumber(arr) {
 // const x = largestNumber(arr1);
 // console.log(x);
 
-//
+//Find smallest number
+function smallestNumber(arr) {
+  let result = Infinity;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] < result) {
+      result = arr[i];
+    }
+  }
+  return result;
+}
+
+const z = smallestNumber(arr1);
+console.log(z);
