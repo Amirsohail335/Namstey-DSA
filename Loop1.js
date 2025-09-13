@@ -69,5 +69,5 @@ function smallestNumber(arr) {
   return result;
 }
 
-const z = smallestNumber(arr1);
-console.log(z);
+// const z = smallestNumber(arr1);
+// console.log(z);
