@@ -24,5 +24,38 @@ function searchElement(arr, num) {
 }
 
 // searchElement(arr, 3);
-const result = searchElement(arr, 11);
-console.log(result);
+// const result = searchElement(arr, 11);
+// console.log(result);
+
+//Number of negative element in arr
+let arr1 = [-1, 2, 4, -3, 5, -7, 0];
+
+function countNegatives(arr) {
+  let count = 0;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] < 0) {
+      count = count + 1;
+    }
+  }
+  return count;
+}
+
+// let count = countNegatives(arr1);
+// console.log(count);
+
+//Find largest number in an array
+
+function largestNumber(arr) {
+  let result = -1;
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i] > result) {
+      result = arr[i];
+    }
+  }
+  return result;
+}
+
+// const x = largestNumber(arr1);
+// console.log(x);
+
+//
