@@ -40,10 +40,10 @@ function countNegatives(arr) {
   return count;
 }
 
-// let count = countNegatives(arr1);
-// console.log(count);
+let count = countNegatives(arr1);
+console.log(count);
 
-//Find largest number in an array !!
+// Find largest number in an array 
 
 function largestNumber(arr) {
   let result = -1;
