@@ -5,7 +5,7 @@ function ReverseDigit(n) {
   while (n > 0) {
     let last = n % 10;
     rev = 10 * rev + last;
-    n = n / 10;
+    n = Math.floor(n / 10);
   }
   //Edge case
   let limit = Math.pow(2, 31);
