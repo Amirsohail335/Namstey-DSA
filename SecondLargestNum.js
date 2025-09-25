@@ -14,8 +14,8 @@ function secondLargestNumber(arr) {
   return secondLargest;
 }
 
-let res = secondLargestNumber(arr);
-console.log(res);
+let res1 = secondLargestNumber(arr);
+console.log(res1);
 
 //Second smallest Number
 
