@@ -7,7 +7,7 @@ function RemoveDuplicate(nums) {
     }
   }
   let uniqueElements = nums.slice(0, x + 1);
-  console.log(uniqueElements);
+  console.log(uniqueElements,'Uniques Elements');
   return x + 1;
 }
 
