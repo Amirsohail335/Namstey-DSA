@@ -9,8 +9,10 @@ function capitalizeWords(sentence) {
       })
       .join(" ");
   }
-  //For the purpose of user debugging.
-  capitalizeWords("hello world");
+  
   module.exports = capitalizeWords
 
- console.log(capitalizeWords("hello world MY nAMe is khan")); // Output: "Hello World My Name Is Khan"
+  //For the purpose of user debugging.
+  let res =capitalizeWords("hello world MY nAMe is khan");
+  console.log(res);
+
