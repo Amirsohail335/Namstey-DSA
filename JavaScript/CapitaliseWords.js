@@ -13,6 +13,6 @@ function capitalizeWords(sentence) {
   module.exports = capitalizeWords
 
   //For the purpose of user debugging.
-  let res =capitalizeWords("hello world MY nAMe");
+  let res =capitalizeWords("hello world MY nAMe is khan");
   console.log(res);
 
