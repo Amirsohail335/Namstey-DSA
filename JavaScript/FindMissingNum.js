@@ -10,7 +10,7 @@ function FindMissingNumber(nums) {
   return expectedSum - actualSum;
 }
 
-arr = [1, 0, 3, 4, 6, 5, 7];
+arr = [1, 0, 3, 4, 6, 5, 7,8];
 
 let res = FindMissingNumber(arr);
 
