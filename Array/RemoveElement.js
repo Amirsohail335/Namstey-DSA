@@ -7,7 +7,7 @@ function RemoveElement(arr, val) {
     }
   }
   let uniqueElements = nums.slice(0, x );
-  console.log(uniqueElements,'Uniques Elements');
+  console.log(uniqueElements,'Uniques Elements are');
   return x;
 }
 
