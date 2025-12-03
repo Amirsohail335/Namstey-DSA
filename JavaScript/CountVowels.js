@@ -40,4 +40,4 @@ function CountVowelsAndConstant(str) {
 }
 
 // console.log(CountVowels("Amir Sohail"));
-console.log(CountVowelsAndConstant("Amir Sohail"));
+console.log(CountVowelsAndConstant("Amir Sohail S"));
