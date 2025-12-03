@@ -23,7 +23,7 @@ function isEligibleToVote(age) {
 
 function OddEven(num) {
   if (num % 2 == 0) {
-    console.log(num + " is even");
+    console.log(num + " is even Number");
   } else {
     console.log(num + " is Odd number");
   }
