@@ -25,7 +25,7 @@ function OddEven(num) {
   if (num % 2 == 0) {
     console.log(num + " is even Number list");
   } else {
-    console.log(num + " is Odd number");
+    console.log(num + " is Odd number list");
   }
 }
 
