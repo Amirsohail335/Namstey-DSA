@@ -13,6 +13,8 @@ function ReverseString(s) {
 
 let arr = ["a", "m", "i", "r"];
 
-let result = ReverseString(arr);
+let arr1 = ['m','i','n','t','u']
+
+let result = ReverseString(arr1);
 
 console.log(result);
