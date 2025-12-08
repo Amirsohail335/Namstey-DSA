@@ -19,7 +19,7 @@ function MergeSortedArray(nums1, m, nums2, n) {
 let n1 = [1, 3, 5];
 let n2 = [3, 4, 7];
 
-let n3 = [4,5,2,1,6]
+let n3 = [4, 5, 12, 31, 61];
 let res = MergeSortedArray(n1, 3, n3, 5);
 
 console.log(res);
