@@ -13,5 +13,5 @@ function ReverseDigit(n) {
   return nCopy < 0 ? -rev : rev;
 }
 
-let result = ReverseDigit(21);
+let result = ReverseDigit(214);
 console.log(result);
