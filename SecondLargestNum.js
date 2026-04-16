@@ -1,4 +1,4 @@
-let arr = [2, 3, 5, 6, 7, 8, 8, 1,22,12,14];
+let arr = [2, 3, 5, 6, 7, 8, 8, 22,12,14];
 
 function secondLargestNumber(arr) {
   let firstlargest = -Infinity;
