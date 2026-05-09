@@ -30,4 +30,4 @@ function OddEven(num) {
 }
 
 OddEven(3)
-OddEven(6)
+OddEven(9)
