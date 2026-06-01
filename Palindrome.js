@@ -14,5 +14,5 @@ function Palindrome(n) {
   }
 }
 
-let num = Palindrome(12331);
+let num = Palindrome(124444);
 console.log(num);
