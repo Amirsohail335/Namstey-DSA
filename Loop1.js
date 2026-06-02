@@ -27,7 +27,7 @@ function searchElement(arr, num) {
 // const result = searchElement(arr, 11);
 // console.log(result);
 
-//Number of negative element in arr
+//Number of negative element in arr 1
 let arr1 = [-1, 2, 4, -3, 5, -7, 0,8];
 
 function countNegatives(arr) {
