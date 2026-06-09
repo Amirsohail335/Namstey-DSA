@@ -7,5 +7,5 @@ function CountDigits(num) {
   return count;
 }
 
-let result = CountDigits(4644);
+let result = CountDigits(4633344);
 console.log(result);
